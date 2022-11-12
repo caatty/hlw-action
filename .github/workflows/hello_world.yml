@@ -23,4 +23,9 @@ jobs:
       - name: good bye
         run: echo "Goood Bye man"
         shell: bash
-
+  checkmem:
+    runs-on: ubuntu-latest
+    steps:
+      - name: check memory by df command
+        run: df -h
+        shell: bash
