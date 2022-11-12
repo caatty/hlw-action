@@ -26,6 +26,12 @@ jobs:
   checkmem:
     runs-on: ubuntu-latest
     steps:
-      - name: check memory by df command
+      - name: check storage by df command
         run: df -h
+        shell: bash
+  checkram:
+    runs-on: ubuntu-latest
+    steps:
+      - name: check ram by free command
+        run: free -h
         shell: bash
