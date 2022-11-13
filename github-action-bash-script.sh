@@ -1,3 +1,5 @@
+#!/bin/bash
+
 ls -la
 echo
 echo "where am i"
