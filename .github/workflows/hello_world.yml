@@ -35,3 +35,9 @@ jobs:
       - name: check ram by free command
         run: free -h
         shell: bash
+  
+  bashshellrun:
+    runs-on: ubuntu-latest
+    steps:
+      - name: runing bash
+        run: sh ./github-action-bash-script.sh
