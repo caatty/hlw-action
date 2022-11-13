@@ -40,4 +40,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: runing bash
-        run: sh ./github-action-bash-script.sh
+        run: sh ../../github-action-bash-script.sh
